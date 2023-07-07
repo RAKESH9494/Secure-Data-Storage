@@ -25,6 +25,9 @@ By using Metamask wallet for registration and login, users can ensure that their
       Locate and click on the "My Files" page or tab within the application's interface.This page should display all the files you have uploaded.
     Look for file names to identify the specific files you want to view.select on a file to preview it within the application.
    
+5. Share and Delete
+
+   If you want you can share the files with other people by giving address.The person,who will be getting fille is notified in Notification page.Another is you can remove access,also you can delete the file. 
 6. Logging Out:
 
       To log out, look for a "Logout" or "Sign Out" option in the application's user interface.
