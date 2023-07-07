@@ -188,7 +188,10 @@
 .box-inner h2,p{
   font-size: 20px;
   color:black
-
+}
+.lgbox a{
+  text-decoration: none;
+  color: #61dafb;
 }
 #uploadbtn{
   padding: 5px;
