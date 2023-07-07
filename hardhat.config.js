@@ -1,28 +1,17 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("@nomiclabs/hardhat-ethers");
 require("dotenv").config();
 /** @type import('hardhat/config').HardhatUserConfig */
-const GOERLI_URL = process.env.GOERLI_URL;
-const PRIVATE_KEY = process.env.PRIVATE_KEY;
+const { API_URL, PRIVATE_KEY } = process.env;
+
 module.exports = {
-  solidity: "0.8.17",
-  defaultNetwork:"hardhat",
-  networks :{
-    hardhat:{}
-  },
-  paths :{
-    artifacts:"./src/artifacts",
+  solidity: "0.8.1",
+  defaultNetwork: "sepolia",
+  networks: {
+    hardhat: {},
+    sepolia: {
+      url: API_URL,
+      accounts: [`0x${PRIVATE_KEY}`]
+    }
   },
 };
-
-// module.exports = {
-//   solidity: "0.8.17",
-//   networks :{
-//     goerli:{
-//       url:GOERLI_URL,
-//       accounts : [PRIVATE_KEY]
-//     },
-//   },
-//   paths :{
-//     artifacts:"./src/artifacts",
-//   },
-// };
