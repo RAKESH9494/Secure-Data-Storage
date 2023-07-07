@@ -147,14 +147,16 @@
 }
 .filediv{
   margin-top:2px;
-  font-size:25px;
+  font-size:20px;
+  padding: 10px;
   font-family: 'Times New Roman';
   color: white;
   cursor:pointer;
   background-color:#282c34;
 }
 .filediv span:hover{
-  color:#61dafb
+  color:#61dafb;
+
 
 }
 .filediv button{
@@ -171,13 +173,13 @@
 }
 .box{
   /* position: fixed; */
-  margin-top: -120px;
+  margin-top: -150px;
   width:100%;
-  text-align: center;
+  margin-left:150px;
 }
 .box-inner{
   background-color: aliceblue;
-  width: 50%;
+  width: 40%;
   color: black;
   padding: 10px;
 }
@@ -188,14 +190,15 @@
 .box-inner h2,p{
   font-size: 20px;
   color:black
-}
-.lgbox a{
-  text-decoration: none;
-  color: #61dafb;
+
 }
 #uploadbtn{
   padding: 5px;
   border:none;
   font-weight: bold;
   border-radius: 3px;
+}
+.lgbox a{
+  text-decoration: none;
+  color: #61dafb;
 }
