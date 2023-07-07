@@ -68,9 +68,9 @@ const Login = ({account,contract}) => {
                 <input type="text" class="form-control" id="address" value={account}/><br/>
                 <label>PASSWORD</label><br/>
                 <input type="password" class="form-control" id="pw"/><br/>
-                <input type="Submit" value={"Login"}/>
+                <input type="Submit" class="btn btn-secondary" value={"Login"}/>
             </form>
-            <p>Dont have Account <a href="/Signup">Sign Up</a></p>
+            <p>Dont have Account?? <a href="/Signup">click here</a></p>
         </div>
         </center>
     </div>
