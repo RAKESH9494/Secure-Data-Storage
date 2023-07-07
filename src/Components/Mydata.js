@@ -62,7 +62,7 @@ const Mydata = ({contract,account}) =>{
         <div class="filediv">
           {pattern.test(memo.name) ?
           <span onClick={()=>{setFile(memo.link);setAccess(memo.access)}}>{memo.name}</span>:
-          <span><a href={memo.link}>{memo.name}</a></span>}
+          <span><a onClick={()=>{setFile(memo.link)}}>{memo.name}</a></span>}
           <button onClick={(e)=>{onClickHandler(e,memo.link)}}><img src={d} height={"30px"} width={"30px"}/></button>
           <button onClick={()=>{setPop(true);setName(memo.name);setFile(memo.link)}}><img src={share} height={"25px"} width={"25px"}/></button>
           <br/>
