@@ -15,7 +15,7 @@ import { setContract } from './StateValues/actions';
 const App = ({setOwner,setContract}) =>{;
   useEffect(()=>{
     const connectWallet = async(e)=>{
-      const contractAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
+      const contractAddress = '0x8bcdf5e0896435e7142B130A4718712fb60F556e';
       const contractABI =abi.abi;
     try{
       const {ethereum} = window;
